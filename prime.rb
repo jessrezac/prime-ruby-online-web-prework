@@ -1,4 +1,5 @@
 def prime?(number)
+  number = number.abs
   divisors = (2..Math.sqrt(number.abs)).to_a
   remainders = []
   divisors.each do |divisor|
@@ -6,7 +7,6 @@ def prime?(number)
   end
   if remainders.index(0) == nil
     return true
-    puts "true"
   else
     return false
   end
