@@ -1,14 +1,17 @@
 def prime?(number)
-  number = number.abs
-  divisors = (2..Math.sqrt(number)).to_a
-  remainders = []
-  divisors.each do |divisor|
-    remainders.push(number % divisor)
-  end
-  if remainders.index(0) == nil
-    return true
-  else
+  if number < 0 
     return false
+  else
+    divisors = (2..Math.sqrt(number)).to_a
+    remainders = []
+    divisors.each do |divisor|
+      remainders.push(number % divisor)
+    end
+    if remainders.index(0) == nil
+      return true
+    else
+      return false
+    end
   end
 end
 
