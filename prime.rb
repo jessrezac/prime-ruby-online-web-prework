@@ -11,6 +11,7 @@ def prime?(number)
       return true
     else
       return false
+      puts "this was false"
     end
   end
 end
