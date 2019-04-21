@@ -8,6 +8,7 @@ def prime?(number)
     puts "Prime"
   else
     puts "Composite"
+  end
 end
 
 prime?(18)
