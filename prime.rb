@@ -4,6 +4,8 @@ def prime?(number)
     remainder = number % divisor
     if remainder == 0
       break
+    else
+      puts "Still computing..."
     end
   end
 end
