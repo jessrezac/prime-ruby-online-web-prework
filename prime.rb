@@ -4,7 +4,7 @@ def prime?(number)
   divisors.each do |divisor|
     remainders.push(number % divisor)
   end
-  puts remainders.chomp
+  puts remainders
 end
 
 prime?(18)
