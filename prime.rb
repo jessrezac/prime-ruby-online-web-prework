@@ -10,6 +10,8 @@ def prime?(number)
     end
     if remainders.index(0) == nil
       return true
+      puts "this was true"
+
     else
       return false
       puts "this was false"
