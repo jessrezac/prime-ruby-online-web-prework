@@ -3,10 +3,10 @@ def prime?(number)
   divisors.each do |divisor|
     remainder = number % divisor
     if remainder == 0
-      break
+      return false
     else
       puts "Still computing..."
     end
   end
-  puts "This number is prime."
+  return false
 end
