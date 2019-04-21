@@ -5,8 +5,7 @@ def prime?(number)
     if remainder == 0
       return false
     else
-      puts "Still computing..."
+      return false
     end
   end
-  return false
 end
