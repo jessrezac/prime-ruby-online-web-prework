@@ -1,5 +1,5 @@
 def prime?(number)
-  divisors = (2..Math.sqrt(number)).to_a
+  divisors = (2..Math.sqrt(number.abs)).to_a
   remainders = []
   divisors.each do |divisor|
     remainders.push(number % divisor)
