@@ -3,7 +3,7 @@ def prime?(number)
   divisors.each do |divisor|
     remainder = number % divisor
     if remainder == 0
-      return false
+      return true
     else
       return false
     end
