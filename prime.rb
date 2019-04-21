@@ -4,7 +4,7 @@ def prime?(number)
   divisors.each do |divisor|
     remainders.push(number % divisor)
   end
-  if remainers.index(0) returns nil
+  if remainers.index(0) == nil
     puts "Prime"
   else
     puts "Composite"
