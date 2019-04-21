@@ -6,7 +6,7 @@ def prime?(number)
   end
   if remainers.index(0) returns nil
     puts "Prime"
-  else 
+  else
     puts "Composite"
 end
 
