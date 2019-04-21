@@ -7,6 +7,7 @@ def prime?(number)
     else
       puts "Maybe still Prime"
     end
+  end
 end
 
 prime?(17)
