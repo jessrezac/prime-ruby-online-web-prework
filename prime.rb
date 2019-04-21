@@ -1,6 +1,7 @@
 def prime?(number)
   if number < 0
     return false
+    put "this was false"
   else
     divisors = (2..Math.sqrt(number)).to_a
     remainders = []
