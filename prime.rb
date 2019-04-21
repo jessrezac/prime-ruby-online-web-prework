@@ -10,4 +10,3 @@ def prime?(number)
   end
   puts "This number is prime."
 end
-
