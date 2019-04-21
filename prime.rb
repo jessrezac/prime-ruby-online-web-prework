@@ -11,4 +11,4 @@ def prime?(number)
   end
 end
 
-prime?(18)
+prime?(17)
