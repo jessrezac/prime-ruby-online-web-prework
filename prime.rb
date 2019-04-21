@@ -6,6 +6,7 @@ def prime?(number)
   end
   if remainders.index(0) == nil
     return true
+    puts "true"
   else
     return false
   end
