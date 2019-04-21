@@ -5,3 +5,5 @@ def prime?(number)
     return false if remainder == 0
     end
 end
+
+prime?(18)
