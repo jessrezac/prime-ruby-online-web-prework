@@ -1,13 +1,10 @@
 def prime?(number)
   divisors = (2..Math.sqrt(number)).to_a
+  remainders = []
   divisors.each do |divisor|
-    remainder = number % divisor
-    if remainder > 0
-      puts "Maybe still Prime"
-    else
-      puts "Composite"
-    end
+    remainders.push(number % divisor)
   end
+  puts remainders
 end
 
 prime?(18)
