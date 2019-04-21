@@ -8,6 +8,7 @@ def prime?(number)
       puts "Still computing..."
     end
   end
+  puts "This number is prime."
 end
 
 prime?(17)
