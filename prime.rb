@@ -5,6 +5,7 @@ def prime?(number)
     if remainder > 0
       puts "Maybe still Prime"
     else
+      break
       puts "Composite"
     end
   end
