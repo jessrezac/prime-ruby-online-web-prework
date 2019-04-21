@@ -3,9 +3,9 @@ def prime?(number)
   divisors.each do |divisor|
     remainder = number % divisor
     if remainder > 0
-      puts ""
-    else
       puts "Maybe still Prime"
+    else
+      puts "Composite"
     end
   end
 end
