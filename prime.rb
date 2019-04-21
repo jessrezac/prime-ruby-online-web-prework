@@ -11,4 +11,3 @@ def prime?(number)
   puts "This number is prime."
 end
 
-prime?(17)
