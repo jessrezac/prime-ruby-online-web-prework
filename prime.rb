@@ -13,8 +13,8 @@ def prime?(number)
       puts "Composite"
     end
   else
-    return false
     puts "Composite"
+    return false
   end
 end
 
