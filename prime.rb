@@ -7,11 +7,14 @@ def prime?(number)
     end
     if remainders.index(0) == nil
       return true
+      puts "Prime"
     else
       return false
+      puts "Composite"
     end
   else
     return false
+    puts "Composite"
   end
 end
 
