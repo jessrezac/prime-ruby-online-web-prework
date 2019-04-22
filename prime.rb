@@ -6,11 +6,11 @@ def prime?(number)
       remainders.push(number % divisor)
     end
     if remainders.index(0) == nil
-      return true
       puts "Prime"
+      return true
     else
-      return false
       puts "Composite"
+      return false
     end
   else
     puts "Composite"
